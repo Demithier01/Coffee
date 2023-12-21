@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Auto Layout"
+rootProject.name = "CoffeeAndTea"
 include(":app")

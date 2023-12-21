@@ -1,4 +1,4 @@
-package com.example.autolayout
+package com.example.coffeeAndTea
 
 import org.junit.Test
 

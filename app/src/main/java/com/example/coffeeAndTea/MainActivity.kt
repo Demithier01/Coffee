@@ -1,9 +1,10 @@
-package com.example.autolayout
+package com.example.coffeeAndTea
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.coffee_and_tea.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,10 +18,10 @@ class MainActivity : AppCompatActivity() {
         btnRegis = findViewById(R.id.button2)
 
         btnLogin.setOnClickListener {
-            startActivity(Intent(this,LoginActivity::class.java))
+            startActivity(Intent(this, LoginActivity::class.java))
         }
         btnRegis.setOnClickListener {
-            startActivity(Intent(this,LoginActivity::class.java))
+            startActivity(Intent(this, LoginActivity::class.java))
         }
     }
 }

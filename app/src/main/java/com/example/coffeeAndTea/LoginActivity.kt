@@ -1,10 +1,11 @@
-package com.example.autolayout
+package com.example.coffeeAndTea
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import com.example.coffee_and_tea.R
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var btnlogin : Button
@@ -23,7 +24,7 @@ class LoginActivity : AppCompatActivity() {
             val userName = editUsername.text.toString()
             val passWord = editPassword.text.toString()
             startActivity(
-                Intent(this,HomeActivity::class.java)
+                Intent(this, HomeActivity::class.java)
                 .putExtra("username",userName)
                 .putExtra("password",passWord)
             )
